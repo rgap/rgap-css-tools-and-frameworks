@@ -1,0 +1,19 @@
+body {
+  color: #4caf50;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 16px;
+}
+.card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #4caf50;
+}

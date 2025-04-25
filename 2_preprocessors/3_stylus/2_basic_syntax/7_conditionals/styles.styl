@@ -1,0 +1,18 @@
+// 🎓 Conditionals in Stylus
+
+text-color(mode)
+  if mode == dark
+    color white
+  else if mode == light
+    color black
+  else
+    color gray
+
+.dark-mode
+  text-color(dark)
+
+.light-mode
+  text-color(light)
+
+.unknown-mode
+  text-color(foo)

@@ -1,0 +1,9 @@
+.dark-mode {
+  color: #fff;
+}
+.light-mode {
+  color: #000;
+}
+.unknown-mode {
+  color: #808080;
+}
