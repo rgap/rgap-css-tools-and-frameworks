@@ -1,0 +1,10 @@
+// 🎓 LESS Loops using recursive mixins
+
+.loop(@i) when (@i > 0) {
+  .margin-@{i} {
+    margin: @i * 4px;
+  }
+  .loop(@i - 1); // recursive call
+}
+
+.loop(5); // Generates .margin-5 to .margin-1

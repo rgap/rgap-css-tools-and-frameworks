@@ -1,0 +1,16 @@
+// 2_mixins.less
+// 🎓 LESS Mixins: reusable groups of styles
+
+// Define a mixin
+.card-style() {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+// Apply it
+.card {
+  .card-style();
+  margin-bottom: 20px;
+}

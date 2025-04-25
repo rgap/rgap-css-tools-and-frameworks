@@ -1,0 +1,16 @@
+// 🎓 Use conditions in mixins (LESS supports guard clauses)
+
+.text-color(@mode) when (@mode = dark) {
+  color: white;
+}
+.text-color(@mode) when (@mode = light) {
+  color: black;
+}
+
+.dark-mode {
+  .text-color(dark);
+}
+
+.light-mode {
+  .text-color(light);
+}
