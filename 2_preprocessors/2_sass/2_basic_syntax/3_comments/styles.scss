@@ -1,0 +1,14 @@
+// 🎓 SCSS supports two types of comments
+
+// This is a single-line comment — used only in development
+body {
+  font-family: Arial, sans-serif; // This is stripped out in the final CSS
+  color: #333;
+}
+
+/* This is a multi-line comment
+   and it will appear in the compiled CSS */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}

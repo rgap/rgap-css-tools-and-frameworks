@@ -1,0 +1,11 @@
+// 🎓 SCSS Variables: reusable values for consistency
+
+$main-color: #4caf50;
+$font-stack: "Segoe UI", sans-serif;
+$padding: 16px;
+
+body {
+  color: $main-color;
+  font-family: $font-stack;
+  padding: $padding;
+}

@@ -1,0 +1,9 @@
+// 🎓 SCSS modular imports using partials
+
+@import "variables";
+@import "mixins";
+
+.container {
+  @include card-style;
+  color: $main-color;
+}

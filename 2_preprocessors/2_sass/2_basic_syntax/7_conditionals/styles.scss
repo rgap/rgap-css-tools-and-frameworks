@@ -1,0 +1,23 @@
+// 🎓 SCSS Conditionals using @if
+
+@mixin text-color($mode) {
+  @if $mode == dark {
+    color: white;
+  } @else if $mode == light {
+    color: black;
+  } @else {
+    color: gray;
+  }
+}
+
+.dark-mode {
+  @include text-color(dark);
+}
+
+.light-mode {
+  @include text-color(light);
+}
+
+.unknown-mode {
+  @include text-color(unknown);
+}

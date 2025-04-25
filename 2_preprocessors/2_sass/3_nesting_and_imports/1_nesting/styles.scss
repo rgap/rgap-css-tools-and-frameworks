@@ -1,0 +1,14 @@
+// 🎓 Nesting in SCSS – applied in article layout
+
+article {
+  padding: 20px;
+  border: 1px solid #ccc;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}

@@ -1,0 +1,13 @@
+// 🎓 SCSS Mixins: reusable style blocks
+
+@mixin card-style {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.card {
+  @include card-style;
+  margin-bottom: 20px;
+}

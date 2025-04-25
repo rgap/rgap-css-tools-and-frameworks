@@ -1,0 +1,8 @@
+// 🔁 Mixin definitions
+
+@mixin card-style {
+  border: 1px solid #ddd;
+  padding: $padding;
+  border-radius: 8px;
+  background-color: white;
+}

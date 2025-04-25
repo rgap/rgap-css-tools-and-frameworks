@@ -1,0 +1,12 @@
+article {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+article p {
+  line-height: 1.6;
+}

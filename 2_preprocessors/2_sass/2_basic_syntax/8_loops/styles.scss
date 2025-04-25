@@ -1,0 +1,7 @@
+// 🎓 SCSS Loops with @for
+
+@for $i from 1 through 5 {
+  .margin-#{$i} {
+    margin: $i * 4px;
+  }
+}
