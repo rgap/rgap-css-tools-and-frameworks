@@ -1,0 +1,8 @@
+.example {
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2IseUJBQWlCO0tBQWpCLHNCQUFpQjtVQUFqQixpQkFBaUI7QUFDbkIiLCJmaWxlIjoic3R5bGVzLmZpbmFsLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5leGFtcGxlIHtcbiAgZGlzcGxheTogZmxleDtcbiAgdXNlci1zZWxlY3Q6IG5vbmU7XG59XG4iXX0= */
