@@ -1,0 +1,52 @@
+/* Clean CSS Reset
+   A very minimalist approach for basic projects.
+*/
+
+/* Set box-sizing globally */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure {
+  margin: 0;
+}
+
+/* Set base body styles */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: system-ui, sans-serif;
+}
+
+/* Normalize list styles */
+ul,
+ol {
+  padding-left: 1.5rem;
+}
+
+/* Ensure images scale properly */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Basic button normalization */
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
